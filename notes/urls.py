@@ -6,7 +6,7 @@ from .views import (
     NoteUpdateView,
     NoteDeleteView
 )
-
+#this is a comment
 urlpatterns = [
     path('new/',NoteCreateView.as_view(), name='note-create'),
     path('',views.notes,name='notes'),
